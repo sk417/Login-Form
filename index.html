@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body{
+            background-image: url(https://source.unsplash.com/user/erondu/1600x900);
+        }
+        #box{
+            border: 1px solid rgb(247, 251, 253);
+            margin: auto;
+            margin-top: 120px;
+            width : 400px;
+            height : 450px;
+            background-color: rgb(247, 251, 253);
+            font-family:'Times New Roman', Times, serif;
+            border-radius: 15px;
+        }
+        #login li{
+         display: inline-block;
+         font-size: 30px;
+         margin-left: 24px;
+         text-decoration: none;
+         
+        }
+        #login li a{
+            text-decoration: none;
+            color: black;
+        }
+
+        input{
+            margin-left: 30px;
+            margin-top: 30px;
+            width: 340px;
+            height: 50px;
+            font-size: 20px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 4px 4px 5px 2px blueviolet
+        }
+       
+        input:hover{
+            border-color: cyan;
+        }
+
+        #second{
+            border: 2px solid rgb(26, 6, 18);
+            width : 125px;
+            height: 50px;
+            text-align: center;
+            margin-top: 10px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 5px 3px blueviolet;
+            line-height: 1.5;
+       }
+        #first{
+            border: 2px solid rgb(9, 75, 92);
+            width : 125px;
+            height: 50px;
+            background-color:rgb(171, 6, 236);
+            text-align: center;
+            color : #fff;
+            border-radius: 10px;
+            box-shadow: 4px 4px 5px 3px blueviolet;
+            line-height: 1.5;
+        }
+
+        #first:hover{
+            background-color:  rgb(247, 251, 253);
+        }
+        #second:hover{
+            background-color:rgb(112, 13, 194);
+        }
+        
+        #btn{
+            background-color: rgb(171, 6, 236);
+            font-size: 30px;
+            box-shadow: 3px 3px 5px 1px #830af5;
+        }
+
+        #user{
+            text-align: center;
+        }
+
+        #welcome{
+            text-align: center;
+            font-weight: bold;
+            font-size: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: mediumslateblue;
+            letter-spacing: 10px;
+        }
+    </style>
+</head>
+<body>
+    <p id = "welcome">WELCOME</p>
+    <div id="box">
+    <header id="login">
+        <ul>
+            <li id="first"><a href="login.html" >Login</li>
+            <li id="second"><a href="https://sk417.github.io/Registration-Form/" >SignUp</a></li>
+        </ul>
+        <div id="botton">
+      <input type="email" placeholder="Email-id"><br>
+      <input type="password" placeholder="Password"><br><br>
+      <a href="#">Forgot Password?</a>
+      <input type="button" value="Login" id="btn">
+      <p id="user">New users?<a href="https://sk417.github.io/Registration-Form/">SignUp</a></p>
+    </div>
+    </header>
+</div>
+
+</body>
+</html>
